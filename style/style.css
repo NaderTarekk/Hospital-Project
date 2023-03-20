@@ -502,6 +502,63 @@ main .contact-section .row .contact-images .map {
   margin-top: 20px;
 }
 
+#services .services-top {
+  padding: 70px 0 50px;
+}
+
+#services .services-list {
+  padding-top: 50px;
+}
+
+.services-list .service-block {
+  margin-bottom: 25px;
+}
+
+.services-top h2 {
+  color: var(--bs-secondary);
+}
+.services-top h1 {
+  color: var(--bs-primary);
+}
+
+.services-list .service-block .ico {
+  font-size: 38px;
+  float: left;
+  color: var(--bs-secondary);
+}
+
+.services-list .service-block .text-block {
+  margin-left: 58px;
+}
+
+.services-list .service-block .text-block .name {
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.services-list .service-block .text-block .info {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.services-list .service-block .text-block .text {
+  font-size: 12px;
+  line-height: normal;
+  font-weight: 300;
+}
+
+.highlight {
+  color: #2ac5ed;
+  font-weight: bold;
+}
+
+.carousel-item .row .col-xl-3 {
+  border: 1px solid var(--bs-gray-300);
+  box-shadow: 0 0px 10px var(--bs-gray-600);
+}
+
 @keyframes women {
   0% {
     transform: translateX(0);
@@ -797,6 +854,9 @@ main .contact-section .row .contact-images .map {
   }
   .about-section .col-md-6 .about-services .col-md-5 i {
     padding: 18px !important;
+  }
+  .carousel-item .row .col-xl-3 {
+    margin-top: 50px;
   }
 }
 @media (max-width: 767px) {
